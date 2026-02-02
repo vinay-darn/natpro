@@ -12,7 +12,7 @@ import {
 } from './postsSlice';
 
 // API service functions
-const postsAPI = {
+export const postsAPI = {
   fetchAllPosts: async (): Promise<Post[]> => {
     try {
       const response = await fetch('https://jsonplaceholder.typicode.com/posts');

@@ -6,7 +6,7 @@ import {
   StyleSheet,
   StatusBar,
 } from 'react-native';
-import { ArrowLeft, X, Menu } from 'lucide-react-native';
+import { ArrowLeft, Menu } from 'lucide-react-native';
 
 interface HeaderProps {
   title: string;
